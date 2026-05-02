@@ -114,6 +114,9 @@ section { padding: 5rem 2rem; }
   gap: 3rem; align-items: start;
 }
 .about-text p { color: var(--muted); font-size: 1.05rem; }
+.about-dog { margin-bottom: 1.5rem; }
+.about-dog img { width: 100%; max-width: 320px; border-radius: var(--radius); box-shadow: var(--shadow); display: block; }
+.dog-caption { font-size: .85rem; color: var(--muted); margin-top: .5rem; font-style: italic; }
 .about-highlights { display: flex; flex-direction: column; gap: 1rem; }
 .highlight-card {
   background: var(--cream);
